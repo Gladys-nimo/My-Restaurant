@@ -18,7 +18,7 @@
 
 
     <TextView
-        android:id="@+id/appNameTextView"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -29,7 +29,8 @@
         android:text="MyRestaurants"
         android:textColor="@color/colorTextIcons"
         android:textSize="50sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:id="@+id/appNameTextView"/>
 
     <EditText
         android:id="@+id/locationEditText"
@@ -39,7 +40,7 @@
         android:layout_above="@+id/findRestaurantsButton"
         android:layout_marginBottom="10dp"
         android:padding="5dp"
-        android:hint="Enter Zip Code"
+        android:hint="Enter location"
         android:layout_centerHorizontal="true" />
 
     <Button
