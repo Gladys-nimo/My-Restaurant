@@ -1,10 +1,13 @@
 
-package com.moringaschool.myrestaurant;
+package models;
 
 import java.util.List;
 //import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+
+import models.Business;
+import models.Region;
 
 //@Generated("jsonschema2pojo")
 public class YelpBusinessesSearchResponse {

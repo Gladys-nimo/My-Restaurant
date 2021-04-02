@@ -1,5 +1,5 @@
 
-package com.moringaschool.myrestaurant;
+package models;
 
 import java.util.List;
 

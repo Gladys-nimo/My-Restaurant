@@ -1,9 +1,11 @@
 
-package com.moringaschool.myrestaurant;
+package models;
 
 //import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
+
+import models.Center;
 
 //@Generated("jsonschema2pojo")
 public class Region {
